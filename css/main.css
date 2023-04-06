@@ -5,12 +5,12 @@ body {
 @media print {
   h1 {
     font-size: 30px;
-    color: green !important;
+    color: yellow !important;
+    background-color: coral !important;
   }
 }
 h1 {
   font-size: 30px !important;
-  color: #fff !important;
   background-color: #9b8950 !important;
 }
 
