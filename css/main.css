@@ -1,0 +1,17 @@
+body {
+  background-color: #4A7199 !important;
+}
+
+@media print {
+  h1 {
+    font-size: 30px;
+    color: green !important;
+  }
+}
+h1 {
+  font-size: 30px !important;
+  color: #fff !important;
+  background-color: #9b8950 !important;
+}
+
+/*# sourceMappingURL=main.css.map */

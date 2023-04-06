@@ -1,0 +1,21 @@
+@use '../sass/variable/variable.scss';
+
+
+body {
+    background-color: variable.$primary !important;
+}
+
+@media print {
+    h1 {
+        font-size: 30px;
+        color: green !important;
+
+        @at-root (without : media) {
+        font-size: variable.$h2-font-size !important;
+        color: #fff !important;
+        background-color: variable.$secondary !important;
+
+        }
+    }
+}
+
